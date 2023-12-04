@@ -16,7 +16,6 @@ def write_toml():
                              "d2v_layers": [4, 2, 4],  # layers of d2v.
                              "pos_depth": 2,  # Depth of positional encoder.
                              "pos_enc_dim": 15,  # Dimension of the positional encoder output
-                             "model_load": "model_3",  # Which D2V to load from
 
                              "weight_hid_dim": 64,  # Weight generator hidden dimension
                              "gen_layers": 1,  # Weight deocder layers
@@ -45,7 +44,7 @@ def write_toml():
                                "binarise": True,
                                "num_1s": None,
                                "num_cols": {'train': -2},
-                               "folds_file": 'med_folds', # File defining the dataset folds
+                               "folds_file": 'all_datasets_fold', # File defining the dataset folds
                                },
 
                  "Settings": {"num_epochs": 31,  # Number of train epochs

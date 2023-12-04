@@ -4,7 +4,6 @@ set_out_dim = 64
 d2v_layers = [ 4, 2, 4,]
 pos_depth = 2
 pos_enc_dim = 15
-model_load = "model_3"
 weight_hid_dim = 64
 gen_layers = 1
 gat_heads = 2
@@ -29,7 +28,7 @@ num_rows = 10
 num_targets = 15
 fold_no = 0
 binarise = true
-folds_file = "med_folds"
+folds_file = "all_datasets_fold"
 
 [Settings]
 num_epochs = 31
