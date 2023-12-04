@@ -4,7 +4,7 @@
 ### How to run pre-trained models
 
 Included in `saves` folder are 3 FLAT models pretrained on all 118 UCI datasets (without excluding any datasets for the testing split $\mathcal{D}_{test}$). These are intended to be our most general models, which users can use on their own datasets. 
-A minimal example of how to load the pre-trained models is presented in `Fewshot/minimal_example.ipynb`
+A minimal example of how to load the pre-trained models is presented in `Fewshot/load_pretrained_FLAT_example.ipynb`
 These models are for binary classification. Models are named after how many meta-rows were present during training, e.g. `saves/model_10_meta/model.pt` is trained on $N^{meta}=10$. Using the model with the most similar training $N^{meta}$ as test $N^{meta}$ should generally give the best results. 
 
 ### How to train FLAT models from scratch
