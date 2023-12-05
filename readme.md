@@ -1,7 +1,7 @@
 # FLAT
 ## Tabular Few-Shot Generalization Across Heterogeneous Feature Spaces
 
-### How to run pre-trained models
+### How to run pre-trained FLAT models
 
 Included in `saves` folder are 3 FLAT models pretrained on all 118 UCI datasets (without excluding any datasets for the testing split $\mathcal{D}_{test}$). These are intended to be our most general models, which users can use on their own datasets. 
 A minimal example of how to load the pre-trained models is presented in `Fewshot/load_pretrained_FLAT_example.ipynb`
@@ -30,3 +30,8 @@ These models are for binary classification. Models are named after how many meta
     For the medical example, $N=10$. For all datasets $N=4$.
 
 3. To train the FLAT model, run `python Fewshot/train.py`. Models are automatically saved in `saves/{run_no}`.
+
+
+### How to fine-tune pre-trained FLAT models?
+
+[Work in progress]
