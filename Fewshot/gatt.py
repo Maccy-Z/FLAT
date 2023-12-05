@@ -64,11 +64,6 @@ class GATConvFunc(MessagePassing):
         alpha = self.edge_updater(edge_index, alpha=alpha, edge_attr=None)
         self.save_alpha = alpha
         self.edge_index = edge_index
-        # print(alpha)
-        #
-        # print(edge_index)
-        #
-        # exit(3)
         out = self.propagate(edge_index, x=x, alpha=alpha, size=None)
 
         # Concatenate output

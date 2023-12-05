@@ -12,3 +12,4 @@ RUN pip install pytorch-tabnet tab-transformer-pytorch catboost networkx[default
 RUN pip install seaborn
 RUN pip install tabpfn
 RUN pip install toml
+RUN pip install jupyter
